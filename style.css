@@ -561,8 +561,7 @@ i a{
     width: 50%;
     margin-left: 30px;
     cursor: pointer;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2)
-   ;
+    /* box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2); */
 }
 .text:hover{
     box-shadow: 0 0 40px 0px rgba(12, 9, 9, 0.2);
@@ -633,10 +632,10 @@ i a{
 
 @media (max-width:900px) {
     .container-con img {
-        width: 100px;
-        height: 50px;
-        margin-left: 36%;
-        margin-bottom: 2%;
+        width: 200px;
+        height: 100px;
+        margin-left: 30%;
+        margin-bottom: 4%;
     }
 
     .container-con {
@@ -663,6 +662,27 @@ i a{
     width: 80%;
     margin-left: 30px;
 }
+}
+@media (max-width:550px) {
+    .container-con img {
+        
+        margin-left: 25%;
+        margin-bottom: 4%;
+    }
+}
+@media (max-width:380px) {
+    .container-con img {
+        
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+}
+@media (max-width:330px) {
+    .container-con img {
+        
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
 }
 
 /* End of ABOUT .section */
@@ -840,6 +860,7 @@ i a{
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
+    
 }
 
 .member-card:hover {
@@ -852,7 +873,8 @@ i a{
     height: 100%;
     backface-visibility: hidden;
     border-radius: 15px;
-    box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2);
+    box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2),
+    0  0px  0px 2px  #0b54a1;
     text-align: center;
     padding: 20px;
     
@@ -1182,6 +1204,7 @@ h2, p {
     margin: auto;
     padding-top: 100px;
     text-align: center;
+    
 }
 .testomonial h1{
     margin-top: 30px;
@@ -1203,6 +1226,8 @@ h2, p {
     display: flex;
     margin-left: 25px;
     margin-right: 25px;
+    box-shadow: 0 0 40px 0px #0c65c4 ,
+    0  0px  0px 4px  #0b54a1;
 }
 
 .testimonial-col img {
@@ -1225,7 +1250,7 @@ h2, p {
         margin-left: 25px;
         margin-right: 25px;
         flex-direction: column;
-
+        box-shadow: 0 0 20px 0px #0c66c5 ;
     }
     
     .testimonial-col p {
@@ -1452,7 +1477,7 @@ tbody td:hover {
 }
 @media (min-width:2300px){
     .sub-header{ 
-        height: 20vh;
+        height: 30vh;
         
     }
     .sub-header h1{
@@ -1536,7 +1561,8 @@ tbody td:hover {
         visibility: visible;
     }
     .sub-header h1{
-        margin-top: 20%;
+        padding-top: 30%;
+        height: 10vh;
     }
     
 }
@@ -1983,7 +2009,7 @@ footer .Ld{
     color: #0ef;
    
 }
-@media(max-width:700px){
+@media(max-width:800px){
     .all-footer{
         flex-direction: column;
     }
@@ -2014,7 +2040,7 @@ footer .Ld{
 
 .hero-btn5:hover {
     border: 1px solid  rgb(145, 122, 113);
-    background:  rgb(27, 142, 219);
+    background:  rgb(5, 71, 114);
     color:  #fff;
     transition: 1s;
 
@@ -2078,13 +2104,7 @@ button:hover {
 }
 
 
-
-
-
-
-
-
-
+/* Blog page start */
 
 
 post-slide{
@@ -2304,3 +2324,5 @@ color: #006669;
         flex-direction: column;
     }
 }
+
+/* Blog page end */
