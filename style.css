@@ -4,6 +4,87 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* loading option start */
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Michroma", sans-serif;
+  height: 100vh;
+}
+.loading-page{
+    display: flex;
+}
+.loading-page #svg{
+    display: inline-block;
+}
+/* .containerx {
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: #191654;
+}
+
+#svg {
+  height: 150px;
+  width: 150px;
+  stroke: white;
+  fill-opacity: 0;
+  stroke-width: 3px;
+  stroke-dasharray: 4500;
+  animation: draw 8s ease;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.name-container {
+  height: 30px;
+  overflow: hidden;
+}
+
+.logo-name {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+/* loading option end */
+
+
+
 
 /* Navbar(PC/laptop) Part1 Start */
 .top-nav{
@@ -841,8 +922,9 @@ i a{
 .card-tittle{
     text-align: center;
     font-size: 50px;
-    margin-bottom: 18px;
+    margin: 60px;
     color: #043870;
+    
 }
 
 .card-container {
@@ -917,9 +999,9 @@ i a{
     padding-top: 10px;
 }
 .icons1 i:hover{
-    background-color: rgb(0, 195, 255);
+    background-color: rgb(7, 148, 190);
     color: #000;
-    box-shadow: 0 0 20px rgb(0, 195, 255);
+    box-shadow: 0 0 20px rgb(7, 148, 190);
 }
 .title {
     font-size: 18px;
@@ -1112,6 +1194,7 @@ h2, p {
     text-align: center;
     font-size: 45px;
     color: #043870;
+    margin: 50px;
 }
 .stories-all{
     height: 380px;
@@ -1225,8 +1308,9 @@ h2, p {
     
 }
 .testomonial h1{
-    margin-top: 30px;
+    margin: 50px;
     color: #043870;
+
 }
 
 .testimonial-col p {
