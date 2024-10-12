@@ -22,22 +22,12 @@ body {
 .loading-page #svg{
     display: inline-block;
 }
-/* .containerx {
-  background-color: black;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-} */
 
 .loading-page {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2563e9, #1f4552,  rgb(16, 38, 63));
 
   height: 100%;
   width: 100%;
@@ -84,11 +74,11 @@ body {
 /* loading option end */
 
 
-
+ 
 
 /* Navbar(PC/laptop) Part1 Start */
 .top-nav{
-    background-color: rgb(9, 31, 46);
+    background-color: rgb(16, 38, 63);
     background-size: 50%;
     height: 45px;
     font-weight: 600;
@@ -298,7 +288,7 @@ i a{
 .nav-bars ul li a{
     font-size: auto;
     text-decoration: none;
-    color: rgb(20, 8, 8);
+    color: rgb(16, 38, 63);;
    
 }
 .nav-bars ul li::after {
@@ -335,7 +325,7 @@ i a{
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: rgb(22, 11, 11);
+    background-color:  rgb(16, 38, 63);
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -361,7 +351,7 @@ i a{
     padding: 19px 19px;
     font-weight: 800;
     margin-bottom: 5px;
-    
+    color: rgb(16, 38, 63);
  
 }
 .nav-bars ul li:hover::after {
@@ -376,10 +366,12 @@ i a{
         background-color: rgb(255, 255, 255);
         width: 100%;
         text-align: center;
+       
     }
 
     .nav-links li {
         margin: 20px 0;
+        
     }
 
     .burger {
@@ -552,7 +544,7 @@ i a{
     color: #0ef;
 }
 .text2h1{
-    color: #14427e;
+    color:  rgb(16, 38, 63);
 }
 .text2p{
     color: #f5ecea;
@@ -560,8 +552,8 @@ i a{
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: #3fd4cd;
-    border: 1px solid #141010;
+    color: white;
+    border: 1px solid  rgb(16, 38, 63);
     font-size: 13px;
     padding: 12px 34px;
     background: transparent;
@@ -662,7 +654,7 @@ i a{
     display: inline-block;
     text-decoration: none;
     color: #152020;
-    border: 1px solid #141010;
+    border: 1px solid  rgb(16, 38, 63);
     font-size: 13px;
     padding: 12px 34px;
     background: transparent;
@@ -673,8 +665,8 @@ i a{
 }
 
 .hero-btn2:hover {
-    border: 1px solid  rgb(9, 31, 46);
-    background:  rgb(9, 31, 46);
+    border: 1px solid   rgb(16, 38, 63);
+    background:   rgb(16, 38, 63);
     color:  #fff;
     transition: 1s;
 
@@ -697,7 +689,7 @@ i a{
 
 .h {
     margin: 30px auto 20px auto;
-    color: #043870;
+    color:  rgb(16, 38, 63);
     font-weight: 800;
 }
 
@@ -775,7 +767,7 @@ i a{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-    color: #043870;
+    color:  rgb(16, 38, 63);
 }
 
 .facilities {
@@ -791,14 +783,13 @@ i a{
     display: flex;
     justify-content: space-between;
 }
+
 .box-container a{
-    color: black;
+    /* color: black; */
     text-decoration: underline;
-    color: #6f89aa;
+    color:  rgb(21, 79, 145);
 }
-.box-container a:hover{
-    color: #1383d3;
-}
+
 .box1 {
     flex-basis: 31%;
     border-radius: 10px;
@@ -807,7 +798,7 @@ i a{
     box-sizing: border-box;
     transition: 0.5s;
     margin-left: 30px;
-    box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
     /* 0 0 40px 0px rgba(0, 0, 0, 0.2); */
 }
 .box1  img{
@@ -838,9 +829,9 @@ i a{
 }
 
 .box1:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-    background-color: rgb(22, 72, 105);
-    color: #0ef;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
+    background-color:  rgb(16, 38, 63);
+    color: white;
 }
 
 @media (max-width:700px) {
@@ -852,7 +843,6 @@ i a{
 .box2 {
     flex-basis: 31%;
     box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2);
-    /* 0 0 40px 0px rgba(0, 0, 0, 0.2); */
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -869,8 +859,8 @@ i a{
 
 .box2:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-    background-color: rgb(22, 72, 105);
-    color: #0ef;
+    background-color:  rgb(16, 38, 63);
+    color: white;
 }
 
 
@@ -898,8 +888,8 @@ i a{
 
 .box3:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-    background-color: rgb(22, 72, 105);
-    color: #0ef;
+    background-color:rgb(16, 38, 63);
+    color:white;
 }
 
 @media (max-width:700px) {
@@ -923,7 +913,8 @@ i a{
     text-align: center;
     font-size: 50px;
     margin: 60px;
-    color: #043870;
+    color: rgb(16, 38, 63);
+
     
 }
 
@@ -956,7 +947,7 @@ i a{
     backface-visibility: hidden;
     border-radius: 15px;
     box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2),
-    0  0px  0px 2px  #0b54a1;
+    0  0px  0px 2px rgb(28, 108, 199);
     text-align: center;
     padding: 20px;
     
@@ -1009,7 +1000,7 @@ i a{
 }
 
 .card-back {
-    background-color: rgb(22, 72, 105);
+    background-color: rgb(16, 38, 63);
     color: rgb(255, 255, 255);
     transform: rotateY(180deg);
 }
@@ -1135,7 +1126,7 @@ h2, p {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 2px solid rgb(16, 38, 63);
     font-size: 13px;
     padding: 12px 34px;
     background: transparent;
@@ -1193,7 +1184,7 @@ h2, p {
 .stories h1{
     text-align: center;
     font-size: 45px;
-    color: #043870;
+    color: rgb(16, 38, 63);
     margin: 50px;
 }
 .stories-all{
@@ -1223,11 +1214,12 @@ h2, p {
 } 
 .story h4 a{
     text-decoration: none;
-    color: #050708;
+    color: rgb(16, 38, 63);
 }
 .story i{
     padding: 10px;
     font-weight: 500;
+    color: rgb(16, 38, 63);
 }
    
 
@@ -1309,12 +1301,12 @@ h2, p {
 }
 .testomonial h1{
     margin: 50px;
-    color: #043870;
+    color: rgb(16, 38, 63);
 
 }
 
 .testimonial-col p {
-    color: rgb(20, 19, 19);
+    color: rgb(65, 61, 61);
 }
 
 .testimonial-col {
@@ -1328,8 +1320,8 @@ h2, p {
     display: flex;
     margin-left: 25px;
     margin-right: 25px;
-    box-shadow: 0 0 40px 0px #0c65c4 ,
-    0  0px  0px 4px  #0b54a1;
+    box-shadow: 0 0 20px 0px rgb(16, 38, 63) ,
+    0  0px  0px 1px  rgb(16, 38, 63);
 }
 
 .testimonial-col img {
@@ -1390,7 +1382,7 @@ h2, p {
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
-    color: rgb(22, 165, 231);
+     color: rgb(16, 38, 63);
     font-weight: 900;
 }
 
@@ -1481,12 +1473,12 @@ th, td {
 }
 
 tbody tr:hover {
-    background-color: #007bff;
+    background-color:   rgb(14, 25, 26);
     color: white;
     transform: scale(1);
 }
 tbody td:hover {
-    background-color: #0b54a1;
+    background-color:  rgb(18, 115, 172);
     color: white;
     transform: scale(1.1);
 }
@@ -1575,7 +1567,7 @@ tbody td:hover {
 .sub-header h1{
     padding-top: 10%;
     text-align: center;
-    color: #0ef;
+     color:white;
 }
 @media (min-width:2300px){
     .sub-header{ 
@@ -1601,7 +1593,7 @@ tbody td:hover {
     
 }
 .about-txt h1{
-    color: #043870;
+    color: rgb(16, 38, 63);
 }
 .about-con p{
     color: #677485;
@@ -1691,7 +1683,7 @@ tbody td:hover {
     font-size: 50px;
     font-weight: 800;
     padding-top: 100px;
-    color: #0ef;
+    color: white;
 }
 .prog-h1{
     text-align: center;
@@ -1700,6 +1692,11 @@ tbody td:hover {
     padding-top: 100px;
     padding-bottom: 100px;
     color: rgb(14, 25, 26);
+}
+@media(max-width:700px){
+    .prog-h1{
+        font-size: 30px;
+    }
 }
 .txt-prog p{
     color: #475c6b;
@@ -1712,7 +1709,7 @@ tbody td:hover {
     display: inline-block;
     text-decoration: none;
     color: #b2e5e7;
-    border: 1px solid #161212;
+    border: 1px solid rgb(21, 57, 99);
     font-size: 15px;
     padding: 12px  20px;
     background: transparent;
@@ -1720,13 +1717,13 @@ tbody td:hover {
     cursor: pointer;
     font-weight: 600;
     margin-top: 20px;
-    background:  rgb(27, 142, 219);
+    background:  rgb(16, 38, 63);
     border-radius: 5px;
 }
 
 .hero-btn6:hover {
     border: 1px solid  rgb(145, 122, 113);
-    background-color: rgb(52, 202, 207);
+    background-color:rgb(20, 52, 88);
     color:  #181313;
     transition: 1s;
 
@@ -1775,7 +1772,7 @@ tbody td:hover {
     margin-bottom: 10px;
 }
 .location span{
-    color: rgb(16, 94, 146);
+    color:  rgb(14, 25, 26);
     font-weight: 900;
 }
 .location iframe{
@@ -1810,17 +1807,17 @@ tbody td:hover {
  
 .con-txt1 h4{
   font-size: 16px;
-  color: rgb(39, 96, 119); 
+  color:  rgb(14, 25, 26); 
   margin-left: 10px;
 }
 
 .con-txt1 h6 {
   margin-left: 20px;
-  color: rgb(55, 140, 173); 
+  color:  rgb(14, 25, 26); 
 }
 .con-my h1{
   font-size: 50px;
-  color: rgb(16, 94, 146);
+  color:  rgb(14, 25, 26);
   margin-left:30px ;
 }
 .con-my p{
@@ -1918,7 +1915,7 @@ tbody td:hover {
         margin-left: 0px;
       }
       .ways h4{
-        color: rgb(16, 94, 146);
+        color: rgb(14, 25, 26);
         text-align: left;
         margin-left: 20px;
       }
@@ -1947,7 +1944,7 @@ tbody td:hover {
   }
   
   .ways h4{
-    color: rgb(16, 94, 146);
+    color:  rgb(14, 25, 26);
     text-align: left;
     margin-left: 20px;
   }
@@ -1973,10 +1970,10 @@ tbody td:hover {
 }
 .ways .txt-2 h5{
   margin-top: 45px;
-  color: rgb(39, 96, 119); 
+  color:  rgb(14, 25, 26); 
 }
 .ways h4{
-  color: rgb(16, 94, 146);
+  color:  rgb(14, 25, 26);
   text-align: left;
   margin-left: 30px;
 }
@@ -2062,7 +2059,7 @@ tbody td:hover {
 /* all footer start */
 
 footer{
-    background-color: rgb(9, 31, 46);
+    background-color: rgb(16, 38, 63);
     background-size: cover;
 }
 footer h4{
@@ -2096,7 +2093,7 @@ footer .Ld{
     color: rgb(255, 255, 255);
 }
 .last-part{
- background-color: rgb(12, 43, 63);
+ background-color: rgb(16, 38, 63);
 }
 
 .last-part .icons{
@@ -2129,6 +2126,7 @@ footer .Ld{
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
+    color:  #000000;
     border: 1px solid #ffffff;
     font-size: 15px;
     padding: 12px 34px;
@@ -2142,8 +2140,7 @@ footer .Ld{
 
 .hero-btn5:hover {
     border: 1px solid  rgb(145, 122, 113);
-    background:  rgb(5, 71, 114);
-    color:  #fff;
+    background:  rgb(16, 38, 63) ;
     transition: 1s;
 
 }
@@ -2179,7 +2176,7 @@ button:hover {
 }
 }
 .top{
-    background-color: rgb(7, 81, 151);
+    background-color: rgb(16, 38, 63);
     border: none;
     border-radius: 40%;
     
@@ -2199,7 +2196,7 @@ button:hover {
     right: 2.1rem;
 }
 .top i{
-    color: black;
+    color:white;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
@@ -2219,7 +2216,7 @@ text-align: center;
 margin:30px auto;
 }
 .post-slide .post-tittle h1{
-    color: #444;
+    color: rgb(14, 25, 26);
     margin: 5px;
 }
 .post-slide a{
@@ -2233,18 +2230,18 @@ margin:30px auto;
     top: 50%;
     right: 30px;
     font-size: 2em;
-    color: #074783;
+    color: rgb(14, 25, 26);
     cursor: pointer;
 }
 .post-slide a{
-    color: black;
+    color: rgb(14, 25, 26);
 }
 .post-slide .prev{
     position: absolute;
     top: 50%;
     left: 30px;
     font-size: 2em;
-    color: #074783;
+    color: rgb(14, 25, 26);
     cursor: pointer;
 }
 .post-slide .post-wrapper{
@@ -2257,7 +2254,7 @@ margin:30px auto;
 
 }
 .post-wrapper a:hover{
-color: #006669;
+color: rgb(14, 25, 26);
 }
 .post-slide .post-wrapper .post{
     width: 350px;
@@ -2307,7 +2304,7 @@ color: #006669;
 }
 
 .blog-left h2{
-    color: #222;
+    color: rgb(14, 25, 26);
     font-weight: 600;
     margin: 30px 10px;
 }
@@ -2320,7 +2317,7 @@ color: #006669;
 
 }
 .blog-right h3{
-  background-color: #1756b6;
+  background-color: rgb(14, 25, 26);
   color: #fff;
   padding: 7px 0;
   font-size: 16px ;
@@ -2338,12 +2335,13 @@ color: #006669;
     
 }
 .g{
-    border: 1px solid #ccc;
+    border: 1px solid rgb(14, 25, 26);
     margin: 50px 0;
     padding: 10px 20px;
 }
 .g h3{
     text-align: center;
+    color: rgb(14, 25, 26);
 }
 .contact-col input , .contact-col textarea{
     width: 100%;
@@ -2369,7 +2367,7 @@ color: #006669;
 
 }
 .j{
-    color: chocolate;
+    color: rgb(14, 25, 26);
 }
 
 .course {
@@ -2415,10 +2413,11 @@ color: #006669;
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+   color:  rgb(14, 25, 26);
 }
 
 .course-coloum:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px rgb(14, 25, 26);
 }
 
 @media (max-width:700px) {
