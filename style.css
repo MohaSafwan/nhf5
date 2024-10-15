@@ -1246,6 +1246,20 @@ h2, p {
         margin-bottom: 2rem;
      }
 }
+@media (max-width:600px){
+    .stories-all{
+        flex-direction: column;
+        display: block;
+        z-index: 2;
+        align-items: center;
+        overflow: visible;
+        margin-left: 25px;
+    }
+    .card-tittle{
+        margin-top: 230%;
+    }
+     
+}
 @media (max-width:550px){
     .stories-all{
         flex-direction: column;
@@ -1256,7 +1270,7 @@ h2, p {
         margin-left: 25px;
     }
     .card-tittle{
-        margin-top: 250%;
+        margin-top: 260%;
     }
      
 }
