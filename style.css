@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-style: inherit; */
+    font-style: century;
 }
 /* loading option start */
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
@@ -13,7 +15,7 @@
 }
 
 body {
-  font-family: "Michroma", sans-serif;
+  
   height: 100vh;
 }
 .loading-page{
@@ -322,22 +324,31 @@ i a{
     padding-right: 8px;
 }
 
-.burger div {
+.burger .line1 {
+    width: 12px;
+    height: 3px;
+    background-color:  rgb(16, 38, 63);
+    margin: 5px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.burger .line2 {
+    width: 19px;
+    height: 3px;
+    background-color:  rgb(16, 38, 63);
+    margin: 5px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.burger .line3 {
     width: 25px;
     height: 3px;
     background-color:  rgb(16, 38, 63);
     margin: 5px;
     transition: all 0.3s ease;
-}
-@media(max-width:370px){
-.burger{
-    padding-right: 0px;
-}
-.burger div{
-    width: 15px;
+    border-radius: 50%;
 }
 
-}
 
 
 @media (max-width: 1000px) {
@@ -560,18 +571,16 @@ i a{
     position: relative;
     cursor: pointer;
     font-weight: 500;
+    background:  rgb(6, 35, 58);
 }
 
 .hero-btn:hover {
-    border: 1px solid  rgb(9, 31, 46);
-    background:  rgb(6, 35, 58);
-    color:  #fff;
+    background:  rgb(10, 56, 94);
     transition: 1s;
-
 }
 .hero-btn a{
     text-decoration: none;
-    color: rgb(24, 151, 209);
+    color: rgb(255, 255, 255);
 }
 
 .fade {
@@ -634,7 +643,7 @@ i a{
     width: 50%;
     margin-left: 30px;
     cursor: pointer;
-    /* box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2); */
+   
 }
 .text:hover{
     box-shadow: 0 0 40px 0px rgba(12, 9, 9, 0.2);
@@ -643,6 +652,7 @@ i a{
 .text h1 {
     font-size: 24px;
     margin-bottom: 10px;
+   
 }
 
 .text p {
@@ -691,6 +701,15 @@ i a{
     margin: 30px auto 20px auto;
     color:  rgb(16, 38, 63);
     font-weight: 800;
+    font-style: Impact;
+    font-style: oblique;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-underline-position: below;
+    text-shadow: 0 0 10px #0e0e0e;
+    text-decoration-thickness: 3px;
+    font-variant: small-caps;
+    font-size:40px ;
 }
 
 .p {
@@ -768,6 +787,15 @@ i a{
     font-weight: 600;
     margin: 10px 0;
     color:  rgb(16, 38, 63);
+    font-style: Impact;
+    font-style: oblique;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-underline-position: below;
+    text-shadow: 0 0 10px #0e0e0e;
+    text-decoration-thickness: 3px;
+    font-variant: small-caps;
+    font-size:40px ; 
 }
 
 .facilities {
@@ -782,12 +810,12 @@ i a{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    cursor:pointer;
 }
 
 .box-container a{
-    /* color: black; */
     text-decoration: underline;
-    color:  rgb(21, 79, 145);
+    
 }
 
 .box1 {
@@ -799,7 +827,7 @@ i a{
     transition: 0.5s;
     margin-left: 30px;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-    /* 0 0 40px 0px rgba(0, 0, 0, 0.2); */
+    
 }
 .box1  img{
     height: 200px;
@@ -867,7 +895,6 @@ i a{
 
 .box3 {
     flex-basis: 31%;
-    /* background-color: #1383d3; */
     z-index: 2;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -893,7 +920,7 @@ i a{
 }
 
 @media (max-width:700px) {
-    .box2 {
+    .box2 { 
         margin-left: 20px;
     }
 }
@@ -902,6 +929,9 @@ i a{
         margin-left: 20px;
     }
 }
+
+
+
 
 /* Features of us section End */
 
@@ -914,7 +944,15 @@ i a{
     font-size: 50px;
     margin: 60px;
     color: rgb(16, 38, 63);
-
+    font-style: Impact;
+    font-style: oblique;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-underline-position: below;
+    text-shadow: 0 0 10px #0e0e0e;
+    text-decoration-thickness: 3px;
+    font-variant: small-caps;
+    font-size:40px ; 
     
 }
 
@@ -946,8 +984,8 @@ i a{
     height: 100%;
     backface-visibility: hidden;
     border-radius: 15px;
-    box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2),
-    0  0px  0px 2px rgb(28, 108, 199);
+    box-shadow: 0 0 20px 0px rgba(5, 34, 71, 0.2);
+    /* 0  0px  0px 2px rgb(28, 108, 199); */
     text-align: center;
     padding: 20px;
     
@@ -1126,7 +1164,7 @@ h2, p {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
-    border: 2px solid rgb(16, 38, 63);
+    border: 1px solid rgb(255, 255, 255);
     font-size: 13px;
     padding: 12px 34px;
     background: transparent;
@@ -1186,6 +1224,15 @@ h2, p {
     font-size: 45px;
     color: rgb(16, 38, 63);
     margin: 50px;
+    font-style: Impact;
+    font-style: oblique;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-underline-position: below;
+    text-shadow: 0 0 10px #0e0e0e;
+    text-decoration-thickness: 3px;
+    font-variant: small-caps;
+    font-size:40px ;
 }
 .stories-all{
     height: 380px;
@@ -1316,7 +1363,15 @@ h2, p {
 .testomonial h1{
     margin: 50px;
     color: rgb(16, 38, 63);
-
+    font-style: Impact;
+    font-style: oblique;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-underline-position: below;
+    text-shadow: 0 0 10px #0e0e0e;
+    text-decoration-thickness: 3px;
+    font-variant: small-caps;
+    font-size:40px ;
 }
 
 .testimonial-col p {
@@ -1765,13 +1820,66 @@ tbody td:hover {
         margin-left: 2%;
     }
 }
+
+
+
+
 /* extra prog end */
 
 
 
 /* D. form of Donation page start */
 
+/* gallary start for new */
 
+/* .gallary-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 94%;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px 0 rgb(0,0,0,0.3);
+}
+
+.gallary-item{
+    flex-basis: 32.7%;
+    margin-bottom: 6px;
+    opacity: 0.85;
+    cursor: pointer;
+}
+.gallary-item:hover{
+    opacity: 1;
+}
+.gallary-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lightbox{
+    position:fixed;
+    display: none;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+
+
+}
+
+
+.lightbox-con{
+    position: relative;
+    width: 65%;
+    height: 58%;
+    margin: 5% auto;
+} */
+
+
+/* Gallary end for new  */
 
 /* contact us -extra */
 
@@ -1979,7 +2087,7 @@ tbody td:hover {
   border-radius: 50%;
   margin: 20px;
 }
-.ways{
+.ways{ 
   margin-top: 40px;
 }
 .ways .txt-2 h5{
@@ -2119,7 +2227,7 @@ footer .Ld{
 }
 .last-part .Ld{
     font-size: large;
-    color: #0ef;
+    color: rgb(9, 220, 235);
    
 }
 @media(max-width:800px){

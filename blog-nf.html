@@ -73,6 +73,33 @@
     margin-top: 30px;
     margin-bottom: 20px;
 }
+.post-slide .prev{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: rgb(14, 25, 26);
+    cursor: pointer;
+    margin-top: 350px;
+}
+.post-slide .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: rgb(14, 25, 26);
+    cursor: pointer;
+    margin-top: 350px;
+}
+@media (max-width:1000px) {
+    .post-slide .next{
+        margin-top: 250px;
+    }
+    .post-slide .prev{
+        margin-top: 250px;
+    }
+}
+
 </style>
 <div class="post-slide">
     <div> 
@@ -81,8 +108,8 @@
         
     </div>
   
-    <i class="fas fa-chevron-left prev1"></i>
-    <i class="fas fa-chevron-right next1"></i>
+    <i class="fas fa-chevron-left prev"></i>
+    <i class="fas fa-chevron-right next"></i>
     <div class="post-wrapper">
 
         <div class="post">
@@ -348,7 +375,7 @@
             <path
                 d="M415.44 512h-95.11L212.12 357.46v91.1L125.69 512H28V29.82L68.47 0h108.05l123.74 176.13V63.45L386.69 0h97.69v461.5zM38.77 35.27V496l72-52.88V194l215.5 307.64h84.79l52.35-38.17h-78.27L69 13zm82.54 466.61l80-58.78v-101l-79.76-114.4v220.94L49 501.89h72.34zM80.63 10.77l310.6 442.57h82.37V10.77h-79.75v317.56L170.91 10.77zM311 191.65l72 102.81V15.93l-72 53v122.72z" />
         </svg>
-        <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M50.8 479.8h83.4V367.8l-83.4 47zm329 0h82.4V414.9l-82.4-47zm0-448V251.6L256.2 179.2 134.5 251.6V31.8H50.8V392.6L256.2 270.3 462.2 392.6V31.8z"/></svg>
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M50.8 479.8h83.4V367.8l-83.4 47zm329 0h82.4V414.9l-82.4-47zm0-448V251.6L256.2 179.2 134.5 251.6V31.8H50.8V392.6L256.2 270.3 462.2 392.6V31.8z"/></svg>
         
        
     </div>
