@@ -29,6 +29,45 @@
     <link rel="stylesheet" href="php.php">
     
 </head>
+<style>
+    .post-slide .prev{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: rgb(14, 25, 26);
+    cursor: pointer;
+    margin-top: 350px;
+}
+.post-slide .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: rgb(14, 25, 26);
+    cursor: pointer;
+    margin-top: 350px;
+}
+@media (max-width:1000px) {
+    .post-slide .next{
+        margin-top: 250px;
+        right: 10px;
+    }
+    .post-slide .prev{
+        margin-top: 250px;
+        left: 10px;
+    }
+}
+@media (max-width:600px) {
+    .post-slide .next{
+       
+       right: 0px;
+    }
+    .post-slide .prev{
+        left: 0px;
+    }
+}
+</style>
 <body> 
     <div class="containerx">
    <header>

@@ -2041,6 +2041,9 @@ tbody td:hover {
         text-align: left;
         margin-left: 20px;
       }
+      .txt-2 h4{
+        margin-left: 34%;
+    }
     }
 @media (max-width:450px){
     .con-txt1{
@@ -2064,6 +2067,9 @@ tbody td:hover {
     margin-left: -20%;
     
   }
+  .txt-2 h4{
+    margin-left: 37%;
+}
   
   .ways h4{
     color:  rgb(14, 25, 26);
